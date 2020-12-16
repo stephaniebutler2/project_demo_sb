@@ -1,0 +1,8 @@
+{
+	"role": {
+		"name": "access_schema_project_demo_sb",
+		"schema_privileges": [{
+			"privileges": ["SELECT"]
+		}]
+	}
+}

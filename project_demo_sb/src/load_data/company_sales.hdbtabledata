@@ -1,0 +1,15 @@
+{
+	"format_version": 1,
+	"imports": [{
+		"target_table": "CAR_COMPANY_SALES",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "company_sales.csv",
+			"has_header": true
+		},
+		"import_settings": {
+			"import_columns": ["COMPANYNAME", "SALESAMOUNT"]
+		}
+	
+	}]
+}

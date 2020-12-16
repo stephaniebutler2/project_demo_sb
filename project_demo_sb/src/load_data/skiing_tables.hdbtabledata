@@ -1,0 +1,25 @@
+{
+	"format_version": 1,
+	"imports": [{
+			"target_table": "Stations",
+			"source_data": {
+				"data_type": "CSV",
+				"file_name": "stations.csv",
+				"has_header": true
+			},
+			"import_settings": {
+				"import_columns": ["node_id","name","ticket_office","restaurant"]
+				}
+			},
+			{
+				"target_table": "StationRelationships",
+				"source_data": {
+					"data_type": "CSV",
+					"file_name": "station_relationship.csv",
+					"has_header": true
+				},
+				"import_settings": {
+					"import_columns": ["edge_id","length","difficulty","start","end","mode","status"]
+				}
+			}]
+	}

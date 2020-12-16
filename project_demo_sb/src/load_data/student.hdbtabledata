@@ -1,0 +1,16 @@
+{
+	"format_version": 1,
+	"imports": [{
+		"target_table": "kanon.Students",
+		"source_data": {
+			"data_type": "CSV",
+			"file_name": "Students.csv",
+			"has_header": true
+		},
+		"import_settings": {
+			"import_columns": ["ID","NAME",	"SITE","GENDER","AGE","SCORE"]
+		}
+	
+	}]
+}
+

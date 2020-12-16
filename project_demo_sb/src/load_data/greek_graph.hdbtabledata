@@ -1,0 +1,26 @@
+{
+	"format_version": 1,
+	"imports": [{
+			"target_table": "GREEK_MYTHOLOGY_MEMBERS",
+			"source_data": {
+				"data_type": "CSV",
+				"file_name": "greek_members.csv",
+				"has_header": true
+			},
+			"import_settings": {
+				"import_columns": ["NAME", "TYPE", "RESIDENCE"]
+			}
+		}, {
+			"target_table": "GREEK_MYTHOLOGY_RELATIONSHIPS",
+			"source_data": {
+				"data_type": "CSV",
+				"file_name": "greek_relationships.csv",
+				"has_header": true
+			},
+			"import_settings": {
+				"import_columns": ["KEY", "SOURCE", "TARGET", "TYPE"]
+			}
+		}
+
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"role":{
+		"name": "datamaskingaccess_cv",
+		"object_privileges":[
+			{
+				"name": "cv_datamasking",
+				"type": "VIEW",
+				"privileges": [ "UNMASKED" ]
+			}
+			
+		]
+	}
+}

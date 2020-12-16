@@ -1,0 +1,25 @@
+{
+	"format_version": 1,
+	"imports": [{
+			"target_table": "newnodes.SalesData",
+			"source_data": {
+				"data_type": "CSV",
+				"file_name": "SalesData.csv",
+				"has_header": true
+			},
+			"import_settings": {
+				"import_columns": ["Product", "SoldinCity","Year"]
+				}
+			},
+			{
+				"target_table": "newnodes.InventoryData",
+				"source_data": {
+					"data_type": "CSV",
+					"file_name": "InventoryData.csv",
+					"has_header": true
+				},
+				"import_settings": {
+					"import_columns": ["Product", "StockinCity", "Year"]
+				}
+			}]
+	}

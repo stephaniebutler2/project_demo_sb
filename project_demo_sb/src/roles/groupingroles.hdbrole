@@ -1,0 +1,16 @@
+{
+	"role": {
+		"name": "groupofroles",
+		"schema_roles": [{
+			"names": ["access_schema_project_demo_sb", "datamaskingaccess_cv"]
+		}],
+		"object_privileges":[
+			{
+				"name": "cv_intersect",
+				"type": "VIEW",
+				"privileges": [ "SELECT" ]
+			}
+			
+		]
+	}
+}
