@@ -1,0 +1,8 @@
+{
+	"role": {
+		"name": "scarr_carrid_privilege",
+		"schema_analytic_privileges": [{
+			"privileges": ["carriduser"]
+		}]
+	}
+}

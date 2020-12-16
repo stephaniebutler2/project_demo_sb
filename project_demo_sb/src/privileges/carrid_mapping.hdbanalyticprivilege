@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Privilege:analyticPrivilege xmlns:Privilege="http://www.sap.com/ndb/BiModelPrivilege.ecore" id="carriduser" privilegeType="SQL_ANALYTIC_PRIVILEGE" schemaVersion="1.1">
+<descriptions defaultDescription="carriduser"/>
+<securedModels>
+  <modelUri>cv_SCARR</modelUri>
+</securedModels>
+<conditionProcedureName>GETCARRID</conditionProcedureName>
+</Privilege:analyticPrivilege>

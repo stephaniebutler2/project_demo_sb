@@ -1,0 +1,8 @@
+{
+	"role": {
+		"name": "mandt_privilege",
+		"schema_analytic_privileges": [{
+			"privileges": ["user_session_client"]
+		}]
+	}
+}
